@@ -90,7 +90,6 @@ def report(
 
     # 1. Обзор
     summary = summarize_dataset(df)
-    summary_df = flatten_summary_for_print(summary)
     missing_df = missing_table(df)
     corr_df = correlation_matrix(df)
     top_cats = top_categories(df, top_k=top_k_categories) #Был изменён параметр
