@@ -1,0 +1,10 @@
+dataset,algorithm,n_clusters,silhouette,davies_bouldin,params,n_noise
+Dataset 1,KMeans,2,0.5216395622404243,0.6853295219054456,,
+Dataset 1,Agglomerative (ward),2,0.5216395622404243,0.6853295219054456,,
+Dataset 1,Agglomerative (complete),2,0.5216395622404243,0.6853295219054456,,
+Dataset 1,Agglomerative (average),2,0.5216395622404243,0.6853295219054456,,
+Dataset 1,Agglomerative (single),2,0.5216395622404243,0.6853295219054456,,
+Dataset 2,KMeans,2,0.3068610017701601,1.3234721699867644,,
+Dataset 2,DBSCAN (eps=0.7),5,0.27505798940744386,3.538173395529869,"{'eps': 0.7, 'min_samples': 10}",291.0
+Dataset 3,KMeans,5,0.4473688782796916,0.9759042654837458,,
+Dataset 3,DBSCAN (eps=3.0),6,0.41866120012407193,2.182085407030347,"{'eps': 3.0, 'min_samples': 5}",85.0
